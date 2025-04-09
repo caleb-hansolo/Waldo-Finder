@@ -30,10 +30,12 @@ Then activate it
 ```shell
 .\waldo-finder-env\Scripts\activate
 ```
-8. Next, upgrade pip and install the necessary libraries (tensorflow)
+8. Next, upgrade pip and install the necessary libraries (tensorflow, openCV, matplotlib)
 ```shell
 pip install --upgrade pip
 pip install tensorflow
+pip install opencv-python
+pip install matplotlib
 ```
 9. Finally, to use the correct kernel with Jupyter Notebook, install `ipykernel`
 ```shell
