@@ -23,11 +23,11 @@ python --version
 ```
 6. Create a Virtual Environment manually using Python's built-in venv module
 ```shell
-python -m venv tf-env
+python -m venv waldo-finder-env
 ```
 Then activate it
 ```shell
-.\tf-env\Scripts\activate
+.\waldo-finder-env\Scripts\activate
 ```
 7. Next, upgrade pip and install the necessary libraries (tensorflow)
 ```shell
@@ -40,3 +40,7 @@ To exit the virtual environment, use the command
 ```shell
 deactivate
 ```
+
+## Using the Model
+
+
