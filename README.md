@@ -26,7 +26,7 @@ python --version
 ```shell
 python -m venv waldo-finder-env
 ```
-    Then activate it
+   Then activate it
 ```shell
 .\waldo-finder-env\Scripts\activate
 ```
@@ -39,11 +39,11 @@ pip install tensorflow
 ```shell
 pip install ipykernel
 ```
-    Then create a custom kernel for this Jupyter Notebook
+   Then create a custom kernel for this Jupyter Notebook
 ```shell
 python -m ipykernel install --user --name waldo-finder-venv
 ```
-    This should be used when your program asks for a kernel before running, or if it automatically selects a kernel, you must change it to waldo-finder-venv for this program to work.
+   This should be used when your program asks for a kernel before running, or if it automatically selects a kernel, you must change it to waldo-finder-venv for this program to work.
 
 
 ### Troubleshooting
