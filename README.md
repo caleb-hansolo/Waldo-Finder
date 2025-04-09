@@ -35,6 +35,21 @@ pip install --upgrade pip
 pip install tensorflow
 ```
 
+### Troubleshooting
+
+Some Windows users may experience trouble when installing tensorflow because of too-long nested directories. 
+
+1. Press `Windows + R`
+2. Type: `regedit` and press Enter
+3. Navigate to:
+```
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+```
+4. Look for a key called `LongPathsEnabled`. If it is not there, right click on the right pane --> `New > DWORD (32-bit) Value`, and name it `LongPathsEnabled`. Double click it, and set the value to `1`. Click OK.
+5. Restart your machine
+
+After this, you should be able to rerun `pip install tensorflow` without any issues.
+
 ### Deactivation
 To exit the virtual environment, use the command
 ```shell
