@@ -18,7 +18,7 @@ pyenv install 3.11.9
 ```shell
 pyenv local 3.11.9
 ```
-Confirm that the local version of Python is 3.11.9 by running the command
+* Confirm that the local version of Python is 3.11.9 by running the command
 ```shell
 python --version
 ```
@@ -26,7 +26,7 @@ python --version
 ```shell
 python -m venv waldo-finder-env
 ```
-Then activate it
+* Then activate it
 ```shell
 .\waldo-finder-env\Scripts\activate
 ```
@@ -41,7 +41,7 @@ pip install matplotlib
 ```shell
 pip install ipykernel
 ```
-Then create a custom kernel for this Jupyter Notebook
+* Then create a custom kernel for this Jupyter Notebook
 ```shell
 python -m ipykernel install --user --name waldo-finder-venv
 ```
