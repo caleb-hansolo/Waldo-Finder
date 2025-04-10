@@ -37,7 +37,7 @@ This program runs a Jupyter Notebook file using a python virtual environment run
         ```shell
         .\waldo-finder-env\Scripts\activate
         ```
-    * If on Mac and Linux, run this command
+    * If on Mac or Linux, run this command
         ```shell
         source venv/bin/activate
         ```
@@ -83,7 +83,7 @@ If you haven't already, activate your virtual environment (command must be run i
     ```shell
     .\waldo-finder-env\Scripts\activate
     ```
-* If on Mac and Linux, run this command
+* If on Mac or Linux, run this command
     ```shell
     source venv/bin/activate
     ```
