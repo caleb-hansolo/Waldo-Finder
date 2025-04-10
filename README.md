@@ -33,9 +33,14 @@ This program runs a Jupyter Notebook file using a python virtual environment run
     python -m venv waldo-finder-env
     ```
     Then activate it  
-    ```shell
-    .\waldo-finder-env\Scripts\activate
-    ```
+    * If on Windows, run this command in powershell
+        ```shell
+        .\waldo-finder-env\Scripts\activate
+        ```
+    * If on Mac and Linux, run this command
+        ```shell
+        source venv/bin/activate
+        ```
 
 8. Next, upgrade pip and install the necessary libraries (tensorflow, openCV, matplotlib)
     ```shell
@@ -71,6 +76,17 @@ Some Windows users may experience trouble when installing tensorflow because of 
 5. Restart your machine
 
 After this, you should be able to rerun `pip install tensorflow` without any issues.
+
+## Steps to Use Model Once Set Up Completed
+If you haven't already, activate your virtual environment (command must be run in the `Waldo-Finder` directory
+* If on Windows, run this command in powershell
+    ```shell
+    .\waldo-finder-env\Scripts\activate
+    ```
+* If on Mac and Linux, run this command
+    ```shell
+    source venv/bin/activate
+    ```
 
 ### Deactivation
 To exit the virtual environment, use the command
