@@ -42,12 +42,10 @@ This program runs a Jupyter Notebook file using a python virtual environment run
         source venv/bin/activate
         ```
 
-8. Next, upgrade pip and install the necessary libraries (tensorflow, openCV, matplotlib)
+8. Next, upgrade pip and install the necessary libraries using the requirements text file
     ```shell
     pip install --upgrade pip
-    pip install tensorflow
-    pip install opencv-python
-    pip install matplotlib
+    pip install -r requirements.txt
     ```
 
 9. Finally, to use the correct kernel with Jupyter Notebook, install `ipykernel`
