@@ -1,0 +1,9 @@
+Files that have Waldo in them for 256-original:
+1_512_512.jpg
+2_512_0.jpg
+3_256_1280.jpg
+4_256_1280.jpg
+5_1280_512.jpg
+6_256_1536.jpg
+
+*Maybe delete some images in 5 that have Waldo lookalikes but aren't Waldo
